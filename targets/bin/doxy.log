@@ -1,0 +1,596 @@
+warning: source /home/kay/openairinterface5g/openair1/MAC_INTERFACE/defs.h is not a readable file or directory... skipping.
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_top.h:47: warning: Refusing to add group _PHY_RF_INTERFACE_ to itself
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:29: warning: the name `proto.h' supplied as the second argument in the \file statement matches the following input files:
+   /home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h
+   /home/kay/openairinterface5g/openair2/RRC/LITE/proto.h
+   /home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h
+Please use a more specific name by including a (larger) part of the path!
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:264: warning: Illegal member name found.
+/home/kay/openairinterface5g/openair1/PHY/CODING/defs.h:306: warning: documented symbol `void teillis_table_init' was not declared or defined.
+/home/kay/openairinterface5g/openair1/PHY/TOOLS/defs.h:139: warning: documented symbol `void fft' was not declared or defined.
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:254: warning: documented symbol `void rrc_pdcp_config_req' was not declared or defined.
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:271: warning: documented symbol `public_pdcpbool rrc_pdcp_config_asn1_req' was not declared or defined.
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:264: warning: no matching file member found for 
+public_pdcp() const
+Possible candidates:
+ '#define public_pdcp(x)' at line 51 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(unsigned int Pdcp_stats_tx[NB_MODULES_MAX][NB_CNX_CH][NB_RAB_MAX])' at line 106 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_data_req(protocol_ctxt_t *ctxt_pP, const srb_flag_t srb_flagP, const rb_id_t rb_id, const mui_t muiP, const confirm_t confirmP, const sdu_size_t sdu_buffer_size, unsigned char *const sdu_buffer, const pdcp_transmission_mode_t mode))' at line 223 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_data_ind(const protocol_ctxt_t *const ctxt_pP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_id, const sdu_size_t sdu_buffer_size, mem_block_t *const sdu_buffer))' at line 246 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_config_req_asn1(const protocol_ctxt_t *const ctxt_pP, pdcp_t *const pdcp_pP, const srb_flag_tsrb_flagP, const rlc_mode_trlc_mode, const uint32_taction, const uint16_tlc_id, const uint16_tmch_id, const rb_id_trb_id, const uint8_trb_sn, const uint8_trb_report, const uint16_theader_compression_profile, const uint8_tsecurity_mode, uint8_t *const kRRCenc, uint8_t *const kRRCint, uint8_t *const kUPenc))' at line 319 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(boolean_t pdcp_remove_UE(const protocol_ctxt_t *const ctxt_pP))' at line 342 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(void pdcp_run(const protocol_ctxt_t *const ctxt_pP);) public_pdcp(int pdcp_module_init(void)' at line 362 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(void pdcp_module_cleanup(void);) public_pdcp(void pdcp_layer_init(void)' at line 365 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(void pdcp_layer_cleanup(void);) protected_pdcp_fifo(int pdcp_fifo_flush_sdus(const protocol_ctxt_t *const ctxt_pP)' at line 367 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+ 'public_pdcp(pdcp_stats_t eNB_pdcp_stats[NUMBER_OF_eNB_MAX];) protected_pdcp(rnti_t pdcp_UE_UE_module_id_to_rnti[NUMBER_OF_UE_MAX]' at line 447 of file/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h
+
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:299: warning: documented symbol `boolean_t pdcp_config_req_asn1' was not declared or defined.
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:337: warning: documented symbol `boolean_t pdcp_remove_UE' was not declared or defined.
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:345: warning: documented symbol `void rrc_pdcp_config_release' was not declared or defined.
+/home/kay/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.h:355: warning: documented symbol `void pdcp_run' was not declared or defined.
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:417: warning: member with no name found.
+/home/kay/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB/bladerf_lib.c:148: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/COMMON/common_lib.h:288: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:310: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:326: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:179: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:161: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:380: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:396: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:211: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:213: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:425: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:368: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:131: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:197: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:110: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:239: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:370: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:193: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:429: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:318: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:312: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:237: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:328: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:431: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:314: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:376: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:241: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:102: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:457: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:96: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:145: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:308: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:108: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:135: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:149: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:143: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:372: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:388: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:157: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:147: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:364: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:100: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:448: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:159: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:382: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:330: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:155: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:316: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:374: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:413: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:98: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:459: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:195: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:415: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:378: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:185: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:334: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:183: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:320: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:427: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:423: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:390: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:243: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:332: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/targets/ARCH/LMSSDR/USERSPACE/LIB/lms_lib.cpp:92: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:195: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:195: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:165: warning: argument 'antenna_id' of command @param is not found in the argument list of trx_usrp_write(openair0_device *device, openair0_timestamp timestamp, void **buff, int nsamps, int cc, int flags)
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:173: warning: The following parameters of trx_usrp_write(openair0_device *device, openair0_timestamp timestamp, void **buff, int nsamps, int cc, int flags) are not documented:
+  parameter 'cc'
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:195: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:196: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:194: warning: argument 'antenna_id' of command @param is not found in the argument list of trx_usrp_read(openair0_device *device, openair0_timestamp *ptimestamp, void **buff, int nsamps, int cc)
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:205: warning: The following parameters of trx_usrp_read(openair0_device *device, openair0_timestamp *ptimestamp, void **buff, int nsamps, int cc) are not documented:
+  parameter 'cc'
+/home/kay/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:414: warning: The following parameters of set_rx_gain_offset(openair0_config_t *openair0_cfg, int chain_index, int bw_gain_adjust) are not documented:
+  parameter 'bw_gain_adjust'
+/home/kay/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB/bladerf_lib.c:148: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB/bladerf_lib.c:97: warning: argument 'timestamp' of command @param is not found in the argument list of trx_brf_write(openair0_device *device, openair0_timestamp ptimestamp, void **buff, int nsamps, int cc, int flags)
+/home/kay/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB/bladerf_lib.c:106: warning: The following parameters of trx_brf_write(openair0_device *device, openair0_timestamp ptimestamp, void **buff, int nsamps, int cc, int flags) are not documented:
+  parameter 'ptimestamp'
+/home/kay/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB/bladerf_lib.c:148: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB/bladerf_lib.c:149: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/LMSSDR/USERSPACE/LIB/lms_lib.cpp:92: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/LMSSDR/USERSPACE/LIB/lms_lib.cpp:92: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/LMSSDR/USERSPACE/LIB/lms_lib.cpp:93: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/openair1/PHY/INIT/defs.h:267: warning: The following parameters of phy_config_cba_rnti(module_id_t Mod_id, int CC_id, eNB_flag_t eNB_flag, uint8_t index, rnti_t cba_rnti, uint8_t cba_group_id, uint8_t num_active_cba_groups) are not documented:
+  parameter 'cba_group_id'
+/home/kay/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:53: warning: argument 'ue' of command @param is not found in the argument list of lte_sync_time_init(LTE_DL_FRAME_PARMS *frame_parms)
+/home/kay/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:53: warning: argument 'band' of command @param is not found in the argument list of lte_sync_time_init(LTE_DL_FRAME_PARMS *frame_parms)
+/home/kay/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:53: warning: argument 'DL_freq' of command @param is not found in the argument list of lte_sync_time_init(LTE_DL_FRAME_PARMS *frame_parms)
+/home/kay/openairinterface5g/openair1/PHY/LTE_ESTIMATION/defs.h:205: warning: The following parameters of get_PL(module_id_t Mod_id, uint8_t CC_id, uint8_t eNB_index) are not documented:
+  parameter 'CC_id'
+/home/kay/openairinterface5g/openair1/PHY/CODING/defs.h:487: warning: The following parameters of phy_threegpplte_turbo_decoder16(int16_t *y, uint8_t *decoded_bytes, uint16_t n, uint16_t interleaver_f1, uint16_t interleaver_f2, uint8_t max_iterations, uint8_t crc_type, uint8_t F, time_stats_t *init_stats, time_stats_t *alpha_stats, time_stats_t *beta_stats, time_stats_t *gamma_stats, time_stats_t *ext_stats, time_stats_t *intl1_stats, time_stats_t *intl2_stats) are not documented:
+  parameter 'init_stats'
+  parameter 'alpha_stats'
+  parameter 'beta_stats'
+  parameter 'gamma_stats'
+  parameter 'ext_stats'
+  parameter 'intl1_stats'
+  parameter 'intl2_stats'
+/home/kay/openairinterface5g/openair1/PHY/CODING/defs.h:534: warning: The following parameters of phy_threegpplte_turbo_decoder8(int16_t *y, uint8_t *decoded_bytes, uint16_t n, uint16_t interleaver_f1, uint16_t interleaver_f2, uint8_t max_iterations, uint8_t crc_type, uint8_t F, time_stats_t *init_stats, time_stats_t *alpha_stats, time_stats_t *beta_stats, time_stats_t *gamma_stats, time_stats_t *ext_stats, time_stats_t *intl1_stats, time_stats_t *intl2_stats) are not documented:
+  parameter 'init_stats'
+  parameter 'alpha_stats'
+  parameter 'beta_stats'
+  parameter 'gamma_stats'
+  parameter 'ext_stats'
+  parameter 'intl1_stats'
+  parameter 'intl2_stats'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:236: warning: argument 'rdvix' of command @param is not found in the argument list of fill_eNB_dlsch_MCH(PHY_VARS_eNB *phy_vars_eNB, int mcs, int ndi, int rvidx, int abstraction_flag)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:244: warning: The following parameters of fill_eNB_dlsch_MCH(PHY_VARS_eNB *phy_vars_eNB, int mcs, int ndi, int rvidx, int abstraction_flag) are not documented:
+  parameter 'rvidx'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:251: warning: The following parameters of fill_UE_dlsch_MCH(PHY_VARS_UE *phy_vars_ue, int mcs, int ndi, int rvidx, int eNB_id) are not documented:
+  parameter 'ndi'
+  parameter 'rvidx'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:387: warning: The following parameters of dlsch_qpsk_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int32_t **rxdataF_comp, int32_t **rxdataF_comp_i, int **dl_ch_mag_i, int32_t **rho_i, int16_t *dlsch_llr, uint8_t symbol, uint8_t first_symbol_flag, uint16_t nb_rb, uint16_t pbch_pss_sss_adj, int16_t **llr128p) are not documented:
+  parameter 'dl_ch_mag_i'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:424: warning: The following parameters of dlsch_qpsk_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int32_t **rxdataF_comp, int32_t **rxdataF_comp_i, int **dl_ch_mag_i, int32_t **rho_i, int16_t *dlsch_llr, uint8_t symbol, uint8_t first_symbol_flag, uint16_t nb_rb, uint16_t pbch_pss_sss_adj, int16_t **llr128p) are not documented:
+  parameter 'dl_ch_mag_i'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:450: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_16qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:450: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_16qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:462: warning: The following parameters of dlsch_16qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'pbch_pss_sss_adjust'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:490: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:490: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:490: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:503: warning: The following parameters of dlsch_16qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:532: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:532: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:532: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:545: warning: The following parameters of dlsch_16qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:572: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_64qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:572: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_64qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:584: warning: The following parameters of dlsch_64qam_qpsk_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'pbch_pss_sss_adjust'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:612: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:612: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:612: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:625: warning: The following parameters of dlsch_64qam_16qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:654: warning: argument 'ch_mag' of command @param is not found in the argument list of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:654: warning: argument 'ch_mag_i' of command @param is not found in the argument list of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:654: warning: argument 'pbch_pss_sss_adj' of command @param is not found in the argument list of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:667: warning: The following parameters of dlsch_64qam_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int **rxdataF_comp, int **rxdataF_comp_i, int **dl_ch_mag, int **dl_ch_mag_i, int **rho_i, short *dlsch_llr, unsigned char symbol, unsigned char first_symbol_flag, unsigned short nb_rb, uint16_t pbch_pss_sss_adjust, short **llr16p) are not documented:
+  parameter 'dl_ch_mag'
+  parameter 'dl_ch_mag_i'
+  parameter 'pbch_pss_sss_adjust'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:735: warning: The following parameters of dlsch_64qam_llr(LTE_DL_FRAME_PARMS *frame_parms, int32_t **rxdataF_comp, int16_t *dlsch_llr, int32_t **dl_ch_mag, int32_t **dl_ch_magb, uint8_t symbol, uint8_t first_symbol_flag, uint16_t nb_rb, uint16_t pbch_pss_sss_adjust, short **llr_save) are not documented:
+  parameter 'llr_save'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1011: warning: argument 'num_pdcch_symbols' of command @param is not found in the argument list of dlsch_decoding(PHY_VARS_UE *phy_vars_ue, int16_t *dlsch_llr, LTE_DL_FRAME_PARMS *lte_frame_parms, LTE_UE_DLSCH_t *dlsch, LTE_DL_UE_HARQ_t *harq_process, uint8_t subframe, uint8_t harq_pid, uint8_t is_crnti, uint8_t llr8_flag)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1028: warning: The following parameters of dlsch_decoding(PHY_VARS_UE *phy_vars_ue, int16_t *dlsch_llr, LTE_DL_FRAME_PARMS *lte_frame_parms, LTE_UE_DLSCH_t *dlsch, LTE_DL_UE_HARQ_t *harq_process, uint8_t subframe, uint8_t harq_pid, uint8_t is_crnti, uint8_t llr8_flag) are not documented:
+  parameter 'harq_process'
+  parameter 'harq_pid'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1059: warning: The following parameters of rx_pdsch(PHY_VARS_UE *phy_vars_ue, PDSCH_t type, uint8_t eNB_id, uint8_t eNB_id_i, uint8_t subframe, uint8_t symbol, uint8_t first_symbol_flag, uint8_t dual_stream_UE, uint8_t i_mod, uint8_t harq_pid) are not documented:
+  parameter 'harq_pid'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1229: warning: argument 'I_MCS' of command @param is not found in the argument list of get_TBS_DL(uint8_t mcs, uint16_t nb_rb)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1233: warning: The following parameters of get_TBS_DL(uint8_t mcs, uint16_t nb_rb) are not documented:
+  parameter 'mcs'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1235: warning: argument 'I_MCS' of command @param is not found in the argument list of get_TBS_UL(uint8_t mcs, uint16_t nb_rb)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1239: warning: The following parameters of get_TBS_UL(uint8_t mcs, uint16_t nb_rb) are not documented:
+  parameter 'mcs'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1475: warning: The following parameters of initial_sync(PHY_VARS_UE *phy_vars_ue, runmode_t mode) are not documented:
+  parameter 'mode'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1490: warning: argument 'frame_parms' of command @param is not found in the argument list of ulsch_encoding(uint8_t *a, PHY_VARS_UE *phy_vars_ue, uint8_t harq_pid, uint8_t eNB_id, uint8_t tmode, uint8_t control_only_flag, uint8_t Nbundled)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1490: warning: argument 'ulsch' of command @param is not found in the argument list of ulsch_encoding(uint8_t *a, PHY_VARS_UE *phy_vars_ue, uint8_t harq_pid, uint8_t eNB_id, uint8_t tmode, uint8_t control_only_flag, uint8_t Nbundled)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1499: warning: The following parameters of ulsch_encoding(uint8_t *a, PHY_VARS_UE *phy_vars_ue, uint8_t harq_pid, uint8_t eNB_id, uint8_t tmode, uint8_t control_only_flag, uint8_t Nbundled) are not documented:
+  parameter 'phy_vars_ue'
+  parameter 'eNB_id'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1690: warning: argument 'index' of command @param is not found in the argument list of generate_prach(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t subframe, uint16_t Nf)
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1734: warning: The following parameters of get_fid_prach_tdd(LTE_DL_FRAME_PARMS *frame_parms, uint8_t tdd_map_index) are not documented:
+  parameter 'tdd_map_index'
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1737: warning: argument 'Xu' of command @param is not found in the argument list of compute_prach_seq(PRACH_CONFIG_COMMON *prach_config_common, lte_frame_type_t frame_type, uint32_t X_u[64][839])
+/home/kay/openairinterface5g/openair1/PHY/LTE_TRANSPORT/proto.h:1741: warning: The following parameters of compute_prach_seq(PRACH_CONFIG_COMMON *prach_config_common, lte_frame_type_t frame_type, uint32_t X_u[64][839]) are not documented:
+  parameter 'frame_type'
+  parameter 'X_u'
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:162: warning: argument 'last_slot' of command @param is not found in the argument list of phy_procedures_UE_lte(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t abstraction_flag, runmode_t mode, relaying_type_t r_type, PHY_VARS_RN *phy_vars_rn)
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:162: warning: argument 'next_slot' of command @param is not found in the argument list of phy_procedures_UE_lte(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t abstraction_flag, runmode_t mode, relaying_type_t r_type, PHY_VARS_RN *phy_vars_rn)
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:197: warning: argument 'last_slot' of command @param is not found in the argument list of phy_procedures_UE_RX(PHY_VARS_UE *phy_vars_ue, uint8_t eNB_id, uint8_t abstraction_flag, runmode_t mode, relaying_type_t r_type, PHY_VARS_RN *phy_vars_rn)
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:320: warning: argument 'frame_parms' of command @param is not found in the argument list of ra_failed(uint8_t Mod_id, uint8_t CC_id, uint8_t eNB_index)
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:320: warning: argument 'subframe' of command @param is not found in the argument list of ra_failed(uint8_t Mod_id, uint8_t CC_id, uint8_t eNB_index)
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:430: warning: argument 'eNB_id' of command @param is not found in the argument list of get_n1_pucch_eNB(PHY_VARS_eNB *phy_vars_eNB, uint8_t UE_id, uint8_t subframe, int16_t *n1_pucch0, int16_t *n1_pucch1, int16_t *n1_pucch2, int16_t *n1_pucch3)
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:430: warning: argument 'b' of command @param is not found in the argument list of get_n1_pucch_eNB(PHY_VARS_eNB *phy_vars_eNB, uint8_t UE_id, uint8_t subframe, int16_t *n1_pucch0, int16_t *n1_pucch1, int16_t *n1_pucch2, int16_t *n1_pucch3)
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:442: warning: The following parameters of get_n1_pucch_eNB(PHY_VARS_eNB *phy_vars_eNB, uint8_t UE_id, uint8_t subframe, int16_t *n1_pucch0, int16_t *n1_pucch1, int16_t *n1_pucch2, int16_t *n1_pucch3) are not documented:
+  parameter 'UE_id'
+/home/kay/openairinterface5g/openair1/SCHED/defs.h:492: warning: The following parameters of pusch_power_cntl(PHY_VARS_UE *phy_vars_ue, uint8_t subframe, uint8_t eNB_id, uint8_t j, uint8_t abstraction_flag) are not documented:
+  parameter 'abstraction_flag'
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'nb_taps' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'channel_length' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'amps' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'delays' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'R_sqrt' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'Td' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'BW' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'ricean_factor' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'aoa' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'max_Doppler' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:183: warning: argument 'random_aoa' of command @param is not found in the argument list of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB)
+/home/kay/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:204: warning: The following parameters of new_channel_desc_scm(uint8_t nb_tx, uint8_t nb_rx, SCM_t channel_model, double sampling_rate, double channel_bandwidth, double forgetting_factor, int32_t channel_offset, double path_loss_dB) are not documented:
+  parameter 'channel_model'
+  parameter 'sampling_rate'
+  parameter 'channel_bandwidth'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:86: warning: argument 'buffer_pP' of command @param is not found in the argument list of rrc_ue_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Buffer, const uint8_t eNB_indexP)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:86: warning: argument 'eNB_index' of command @param is not found in the argument list of rrc_ue_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Buffer, const uint8_t eNB_indexP)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:92: warning: The following parameters of rrc_ue_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Buffer, const uint8_t eNB_indexP) are not documented:
+  parameter 'Buffer'
+  parameter 'eNB_indexP'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:119: warning: argument 'frame' of command @param is not found in the argument list of rrc_ue_establish_srb1(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:125: warning: The following parameters of rrc_ue_establish_srb1(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config) are not documented:
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:127: warning: argument 'frame' of command @param is not found in the argument list of rrc_ue_establish_srb2(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:133: warning: The following parameters of rrc_ue_establish_srb2(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct SRB_ToAddMod *SRB_config) are not documented:
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:140: warning: The following parameters of rrc_ue_establish_drb(module_id_t module_idP, frame_t frameP, uint8_t eNB_index, struct DRB_ToAddMod *DRB_config) are not documented:
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:185: warning: The following parameters of rrc_eNB_decode_ccch(protocol_ctxt_t *const ctxt_pP, const SRB_INFO *const Srb_info, const int CC_id) are not documented:
+  parameter 'CC_id'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:191: warning: argument 'sdu_size' of command @param is not found in the argument list of rrc_eNB_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Rx_sdu, const sdu_size_t sdu_sizeP)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:196: warning: The following parameters of rrc_eNB_decode_dcch(const protocol_ctxt_t *const ctxt_pP, const rb_id_t Srb_id, const uint8_t *const Rx_sdu, const sdu_size_t sdu_sizeP) are not documented:
+  parameter 'Srb_id'
+  parameter 'sdu_sizeP'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:207: warning: The following parameters of rrc_eNB_generate_RRCConnectionSetup(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, const int CC_id) are not documented:
+  parameter 'CC_id'
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:235: warning: argument 'rrcConnectionReconfigurationComplete' of command @param is not found in the argument list of rrc_eNB_process_RRCConnectionReconfigurationComplete(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *ue_context_pP, const uint8_t xid)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:285: warning: argument 'module_idP' of command @param is not found in the argument list of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:285: warning: argument 'frame' of command @param is not found in the argument list of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:285: warning: argument 'ue_module_idP' of command @param is not found in the argument list of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length)
+/home/kay/openairinterface5g/openair2/RRC/LITE/proto.h:290: warning: The following parameters of rrc_eNB_generate_RRCConnectionReconfiguration_handover(const protocol_ctxt_t *const ctxt_pP, rrc_eNB_ue_context_t *const ue_context_pP, uint8_t *const nas_pdu, const uint32_t nas_length) are not documented:
+  parameter 'ctxt_pP'
+  parameter 'ue_context_pP'
+  parameter 'nas_pdu'
+  parameter 'nas_length'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:60: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, sub_frame_t subframeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:60: warning: argument 'frame' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, sub_frame_t subframeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:60: warning: argument 'subframe' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, sub_frame_t subframeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:60: warning: argument 'Msg3_subframe' of command @param is not found in the argument list of schedule_SI(module_id_t module_idP, frame_t frameP, sub_frame_t subframeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:66: warning: The following parameters of schedule_SI(module_id_t module_idP, frame_t frameP, sub_frame_t subframeP) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+  parameter 'subframeP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:68: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_MBMS(module_id_t module_idP, uint8_t CC_id, frame_t frameP, sub_frame_t subframe)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:68: warning: argument 'frame' of command @param is not found in the argument list of schedule_MBMS(module_id_t module_idP, uint8_t CC_id, frame_t frameP, sub_frame_t subframe)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:73: warning: The following parameters of schedule_MBMS(module_id_t module_idP, uint8_t CC_id, frame_t frameP, sub_frame_t subframe) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:75: warning: argument 'Mod_id' of command @param is not found in the argument list of get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t CC_id, uint8_t mbsfn_sync_area)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:75: warning: argument 'index' of command @param is not found in the argument list of get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t CC_id, uint8_t mbsfn_sync_area)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:80: warning: The following parameters of get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t CC_id, uint8_t mbsfn_sync_area) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:82: warning: argument 'Mod_id' of command @param is not found in the argument list of ue_get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t mbsfn_sync_area, unsigned char eNB_index)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:82: warning: argument 'index' of command @param is not found in the argument list of ue_get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t mbsfn_sync_area, unsigned char eNB_index)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:88: warning: The following parameters of ue_get_mbsfn_sf_alloction(module_id_t module_idP, uint8_t mbsfn_sync_area, unsigned char eNB_index) are not documented:
+  parameter 'module_idP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:90: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ulsch(module_id_t module_idP, frame_t frameP, unsigned char cooperation_flag, sub_frame_t subframe, unsigned char sched_subframe)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:90: warning: argument 'frame' of command @param is not found in the argument list of schedule_ulsch(module_id_t module_idP, frame_t frameP, unsigned char cooperation_flag, sub_frame_t subframe, unsigned char sched_subframe)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:96: warning: The following parameters of schedule_ulsch(module_id_t module_idP, frame_t frameP, unsigned char cooperation_flag, sub_frame_t subframe, unsigned char sched_subframe) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+  parameter 'cooperation_flag'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:98: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ulsch_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, uint16_t *first_rb)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:98: warning: argument 'frame' of command @param is not found in the argument list of schedule_ulsch_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, uint16_t *first_rb)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:104: warning: The following parameters of schedule_ulsch_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, uint16_t *first_rb) are not documented:
+  parameter 'module_idP'
+  parameter 'cooperation_flag'
+  parameter 'frameP'
+  parameter 'first_rb'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:106: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ulsch_cba_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, uint16_t *first_rb)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:106: warning: argument 'frame' of command @param is not found in the argument list of schedule_ulsch_cba_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, uint16_t *first_rb)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:112: warning: The following parameters of schedule_ulsch_cba_rnti(module_id_t module_idP, unsigned char cooperation_flag, frame_t frameP, sub_frame_t subframe, unsigned char sched_subframe, uint16_t *first_rb) are not documented:
+  parameter 'module_idP'
+  parameter 'cooperation_flag'
+  parameter 'frameP'
+  parameter 'first_rb'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:114: warning: argument 'Mod_id' of command @param is not found in the argument list of fill_DLSCH_dci(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, int *mbsfn_flag)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:114: warning: argument 'frame' of command @param is not found in the argument list of fill_DLSCH_dci(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, int *mbsfn_flag)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:120: warning: The following parameters of fill_DLSCH_dci(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, int *mbsfn_flag) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:122: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_ue_spec(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, int *mbsfn_flag)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:122: warning: argument 'frame' of command @param is not found in the argument list of schedule_ue_spec(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, int *mbsfn_flag)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:129: warning: The following parameters of schedule_ue_spec(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, int *mbsfn_flag) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:131: warning: argument 'Mod_id' of command @param is not found in the argument list of get_Po_NOMINAL_PUSCH(module_id_t module_idP, uint8_t CC_id)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:135: warning: The following parameters of get_Po_NOMINAL_PUSCH(module_id_t module_idP, uint8_t CC_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:137: warning: argument 'Mod_id' of command @param is not found in the argument list of get_DELTA_PREAMBLE(module_id_t module_idP, int CC_id)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:141: warning: The following parameters of get_DELTA_PREAMBLE(module_id_t module_idP, int CC_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:143: warning: argument 'Mod_id' of command @param is not found in the argument list of get_deltaP_rampup(module_id_t module_idP, uint8_t CC_id)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:148: warning: The following parameters of get_deltaP_rampup(module_id_t module_idP, uint8_t CC_id) are not documented:
+  parameter 'module_idP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:342: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_next_ulue(module_id_t module_idP, int UE_id, sub_frame_t subframe)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:347: warning: The following parameters of schedule_next_ulue(module_id_t module_idP, int UE_id, sub_frame_t subframe) are not documented:
+  parameter 'module_idP'
+  parameter 'UE_id'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:349: warning: argument 'Mod_id' of command @param is not found in the argument list of schedule_next_dlue(module_id_t module_idP, int CC_id, sub_frame_t subframe)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:354: warning: The following parameters of schedule_next_dlue(module_id_t module_idP, int CC_id, sub_frame_t subframe) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:537: warning: argument 'Mod_id' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:537: warning: argument 'frame' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:537: warning: argument 'access' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:537: warning: argument '1' of command @param is not found in the argument list of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:544: warning: The following parameters of cba_access(module_id_t module_idP, frame_t frameP, sub_frame_t subframe, uint8_t eNB_index, uint16_t buflen) are not documented:
+  parameter 'module_idP'
+  parameter 'frameP'
+  parameter 'buflen'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:547: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_lcgid(module_id_t module_idP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:547: warning: argument 'lcgid' of command @param is not found in the argument list of get_bsr_lcgid(module_id_t module_idP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:551: warning: The following parameters of get_bsr_lcgid(module_id_t module_idP) are not documented:
+  parameter 'module_idP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:554: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_len(module_id_t module_idP, uint16_t bufflen)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:554: warning: argument 'bsr_len' of command @param is not found in the argument list of get_bsr_len(module_id_t module_idP, uint16_t bufflen)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:559: warning: The following parameters of get_bsr_len(module_id_t module_idP, uint16_t bufflen) are not documented:
+  parameter 'module_idP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:562: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_short(module_id_t module_idP, uint8_t bsr_len)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:562: warning: argument 'bsr_s' of command @param is not found in the argument list of get_bsr_short(module_id_t module_idP, uint8_t bsr_len)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:567: warning: The following parameters of get_bsr_short(module_id_t module_idP, uint8_t bsr_len) are not documented:
+  parameter 'module_idP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:570: warning: argument 'Mod_id' of command @param is not found in the argument list of get_bsr_long(module_id_t module_idP, uint8_t bsr_len)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:570: warning: argument 'bsr_l' of command @param is not found in the argument list of get_bsr_long(module_id_t module_idP, uint8_t bsr_len)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:575: warning: The following parameters of get_bsr_long(module_id_t module_idP, uint8_t bsr_len) are not documented:
+  parameter 'module_idP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:638: warning: argument 'Mod_id' of command @param is not found in the argument list of get_phr_mapping(module_id_t module_idP, int CC_id, uint8_t eNB_index)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:643: warning: The following parameters of get_phr_mapping(module_id_t module_idP, int CC_id, uint8_t eNB_index) are not documented:
+  parameter 'module_idP'
+  parameter 'eNB_index'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:653: warning: argument 'Mod_id' of command @param is not found in the argument list of Msg3_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:657: warning: The following parameters of Msg3_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:660: warning: argument 'Mod_id' of command @param is not found in the argument list of Msg1_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:665: warning: The following parameters of Msg1_tx(module_id_t module_idP, uint8_t CC_id, frame_t frameP, uint8_t eNB_id) are not documented:
+  parameter 'module_idP'
+  parameter 'CC_id'
+  parameter 'frameP'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:716: warning: argument 'Mod_id' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:716: warning: argument 'eNB_id' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:716: warning: argument 'physcialConfigDedicated' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:716: warning: argument 'MBMS_Flag' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:716: warning: argument 'mbsfn_AreaInfoList' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:716: warning: argument 'pmch_InfoList' of command @param is not found in the argument list of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:738: warning: The following parameters of rrc_mac_config_req(module_id_t module_idP, int CC_id, eNB_flag_t eNB_flag, rnti_t rntiP, uint8_t eNB_index, RadioResourceConfigCommonSIB_t *radioResourceConfigCommon, struct PhysicalConfigDedicated *physicalConfigDedicated, MeasObjectToAddMod_t **measObj, MAC_MainConfig_t *mac_MainConfig, long logicalChannelIdentity, LogicalChannelConfig_t *logicalChannelConfig, MeasGapConfig_t *measGapConfig, TDD_Config_t *tdd_Config, MobilityControlInfo_t *mobilityControlInfo, uint8_t *SIwindowsize, uint16_t *SIperiod, ARFCN_ValueEUTRA_t *ul_CarrierFreq, long *ul_Bandwidth, AdditionalSpectrumEmission_t *additionalSpectrumEmission, struct MBSFN_SubframeConfigList *mbsfn_SubframeConfigList) are not documented:
+  parameter 'module_idP'
+  parameter 'eNB_index'
+  parameter 'physicalConfigDedicated'
+  parameter 'ul_CarrierFreq'
+  parameter 'ul_Bandwidth'
+  parameter 'additionalSpectrumEmission'
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:776: warning: argument 'Mod_id' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:776: warning: argument 'UE_id' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:776: warning: argument 'CC_id' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:776: warning: argument 'loc_type' of command @param is not found in the argument list of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP)
+/home/kay/openairinterface5g/openair2/LAYER2/MAC/proto.h:784: warning: The following parameters of rrc_get_estimated_ue_distance(const protocol_ctxt_t *const ctxt_pP, const int CC_idP, const uint8_t loc_typeP) are not documented:
+  parameter 'ctxt_pP'
+  parameter 'CC_idP'
+  parameter 'loc_typeP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:359: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_remove_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:366: warning: The following parameters of rrc_rlc_remove_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP) are not documented:
+  parameter 'MBMS_flagP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:369: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_add_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, logical_chan_id_t chan_idP, rlc_mode_t rlc_modeP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:378: warning: The following parameters of rrc_rlc_add_rlc(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, logical_chan_id_t chan_idP, rlc_mode_t rlc_modeP) are not documented:
+  parameter 'MBMS_flagP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:381: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_config_req(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, config_action_t actionP, const rb_id_t rb_idP, rlc_info_t rlc_infoP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:402: warning: The following parameters of rrc_rlc_config_req(const protocol_ctxt_t *const ctxtP, const srb_flag_t srb_flagP, const MBMS_flag_t MBMS_flagP, config_action_t actionP, const rb_id_t rb_idP, rlc_info_t rlc_infoP) are not documented:
+  parameter 'MBMS_flagP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:405: warning: argument 'MBMS_flag' of command @param is not found in the argument list of rrc_rlc_data_req(const protocol_ctxt_t *const ctxtP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, mui_t muiP, confirm_t confirmP, sdu_size_t sdu_sizeP, char *sduP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/rlc.h:415: warning: The following parameters of rrc_rlc_data_req(const protocol_ctxt_t *const ctxtP, const MBMS_flag_t MBMS_flagP, const rb_id_t rb_idP, mui_t muiP, confirm_t confirmP, sdu_size_t sdu_sizeP, char *sduP) are not documented:
+  parameter 'MBMS_flagP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:126: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_release(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:132: warning: The following parameters of rlc_am_release(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:167: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_stat_req(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP, unsigned int *stat_tx_pdcp_sdu, unsigned int *stat_tx_pdcp_bytes, unsigned int *stat_tx_pdcp_sdu_discarded, unsigned int *stat_tx_pdcp_bytes_discarded, unsigned int *stat_tx_data_pdu, unsigned int *stat_tx_data_bytes, unsigned int *stat_tx_retransmit_pdu_by_status, unsigned int *stat_tx_retransmit_bytes_by_status, unsigned int *stat_tx_retransmit_pdu, unsigned int *stat_tx_retransmit_bytes, unsigned int *stat_tx_control_pdu, unsigned int *stat_tx_control_bytes, unsigned int *stat_rx_pdcp_sdu, unsigned int *stat_rx_pdcp_bytes, unsigned int *stat_rx_data_pdus_duplicate, unsigned int *stat_rx_data_bytes_duplicate, unsigned int *stat_rx_data_pdu, unsigned int *stat_rx_data_bytes, unsigned int *stat_rx_data_pdu_dropped, unsigned int *stat_rx_data_bytes_dropped, unsigned int *stat_rx_data_pdu_out_of_window, unsigned int *stat_rx_data_bytes_out_of_window, unsigned int *stat_rx_control_pdu, unsigned int *stat_rx_control_bytes, unsigned int *stat_timer_reordering_timed_out, unsigned int *stat_timer_poll_retransmit_timed_out, unsigned int *stat_timer_status_prohibit_timed_out)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:256: warning: The following parameters of rlc_am_stat_req(const protocol_ctxt_t *const ctxtP, rlc_am_entity_t *const rlc_pP, unsigned int *stat_tx_pdcp_sdu, unsigned int *stat_tx_pdcp_bytes, unsigned int *stat_tx_pdcp_sdu_discarded, unsigned int *stat_tx_pdcp_bytes_discarded, unsigned int *stat_tx_data_pdu, unsigned int *stat_tx_data_bytes, unsigned int *stat_tx_retransmit_pdu_by_status, unsigned int *stat_tx_retransmit_bytes_by_status, unsigned int *stat_tx_retransmit_pdu, unsigned int *stat_tx_retransmit_bytes, unsigned int *stat_tx_control_pdu, unsigned int *stat_tx_control_bytes, unsigned int *stat_rx_pdcp_sdu, unsigned int *stat_rx_pdcp_bytes, unsigned int *stat_rx_data_pdus_duplicate, unsigned int *stat_rx_data_bytes_duplicate, unsigned int *stat_rx_data_pdu, unsigned int *stat_rx_data_bytes, unsigned int *stat_rx_data_pdu_dropped, unsigned int *stat_rx_data_bytes_dropped, unsigned int *stat_rx_data_pdu_out_of_window, unsigned int *stat_rx_data_bytes_out_of_window, unsigned int *stat_rx_control_pdu, unsigned int *stat_rx_control_bytes, unsigned int *stat_timer_reordering_timed_out, unsigned int *stat_timer_poll_retransmit_timed_out, unsigned int *stat_timer_status_prohibit_timed_out) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:259: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_get_pdus(const protocol_ctxt_t *const ctxtP, void *const rlc_pP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:263: warning: The following parameters of rlc_am_get_pdus(const protocol_ctxt_t *const ctxtP, void *const rlc_pP) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:266: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_rx(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indication)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:271: warning: The following parameters of rlc_am_rx(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indication) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:274: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_mac_status_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, uint16_t tbs_sizeP, struct mac_status_ind tx_statusP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:271: warning: The following parameters of rlc_am_mac_status_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, uint16_t tbs_sizeP, struct mac_status_ind tx_statusP) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:284: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_mac_data_request(const protocol_ctxt_t *const ctxtP, void *const rlc_pP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:271: warning: The following parameters of rlc_am_mac_data_request(const protocol_ctxt_t *const ctxtP, void *const rlc_pP) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:292: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_mac_data_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:297: warning: The following parameters of rlc_am_mac_data_indication(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, struct mac_data_ind data_indP) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:300: warning: argument 'ctxt_pP' of command @param is not found in the argument list of rlc_am_data_req(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, mem_block_t *sduP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.h:305: warning: The following parameters of rlc_am_data_req(const protocol_ctxt_t *const ctxtP, void *const rlc_pP, mem_block_t *sduP) are not documented:
+  parameter 'ctxtP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:61: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_free_in_sdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:67: warning: The following parameters of rlc_am_free_in_sdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:71: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_free_in_sdu_data(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:77: warning: The following parameters of rlc_am_free_in_sdu_data(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP, unsigned int index_in_bufferP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:81: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_in_sdu_is_empty(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.h:86: warning: The following parameters of rlc_am_in_sdu_is_empty(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *rlcP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:77: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_ack_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:86: warning: The following parameters of rlc_am_ack_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:89: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_retransmit_get_copy(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:98: warning: The following parameters of rlc_am_retransmit_get_copy(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:101: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_retransmit_get_subsegment(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP, sdu_size_t *const sizeP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:112: warning: The following parameters of rlc_am_retransmit_get_subsegment(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, const rlc_sn_t snP, sdu_size_t *const sizeP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:115: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_retransmit_any_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:121: warning: The following parameters of rlc_am_retransmit_any_pdu(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:124: warning: argument 'ctxtP' of command @param is not found in the argument list of rlc_am_tx_buffer_display(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, char *const message_pP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.h:132: warning: The following parameters of rlc_am_tx_buffer_display(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlcP, char *const message_pP) are not documented:
+  parameter 'ctxt_pP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_status_report.h:100: warning: argument 'total_size_pP' of command @param is not found in the argument list of rlc_am_get_control_pdu_infos(rlc_am_pdu_sn_10_t *const headerP, sdu_size_t *const total_sizeP, rlc_am_control_pdu_info_t *const pdu_infoP)
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_status_report.h:108: warning: The following parameters of rlc_am_get_control_pdu_infos(rlc_am_pdu_sn_10_t *const headerP, sdu_size_t *const total_sizeP, rlc_am_control_pdu_info_t *const pdu_infoP) are not documented:
+  parameter 'total_sizeP'
+/home/kay/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_timer_poll_retransmit.h:92: warning: argument 'frame' of command @param is not found in the argument list of rlc_am_start_timer_poll_retransmit(const protocol_ctxt_t *const ctxt_pP, rlc_am_entity_t *const rlc_pP)
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:448: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:448: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:423: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:425: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:427: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:429: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:431: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:423: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:425: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:427: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:429: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:431: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:457: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:459: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:457: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:459: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:461: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:461: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/targets/ARCH/COMMON/common_lib.h:288: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/COMMON/common_lib.h:288: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/targets/ARCH/COMMON/common_lib.h:289: warning: unable to resolve reference to `nsamps' for \ref command
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:211: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:213: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:211: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:213: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:108: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:110: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:108: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:110: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:96: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:98: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:100: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:102: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:96: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:98: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:100: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:102: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:143: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:145: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:147: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:149: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:143: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:145: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:147: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:149: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:131: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:135: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:131: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:135: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:179: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:183: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:185: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:179: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:183: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:185: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:193: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:195: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:197: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:193: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:195: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:197: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:413: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:415: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:413: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:415: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:237: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:239: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:241: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:243: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:237: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:239: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:241: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:243: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:308: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:310: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:312: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:314: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:316: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:318: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:320: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:308: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:310: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:312: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:314: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:316: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:318: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:320: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:388: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:390: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:388: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:390: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:396: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:396: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:364: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:368: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:370: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:372: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:374: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:376: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:378: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:380: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:382: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:364: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:368: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:370: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:372: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:374: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:376: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:378: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:380: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:382: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:326: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:328: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:330: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:332: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:334: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:326: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:328: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:330: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:332: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:334: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:155: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:157: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:159: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:161: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:155: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:157: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:159: warning: Found unknown command `\vr'
+/home/kay/openairinterface5g/openair1/PHY/impl_defs_lte.h:161: warning: Found unknown command `\vr'

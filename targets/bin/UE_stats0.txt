@@ -1,0 +1,49 @@
+[UE_PROC] UE 0, RNTI 8bea
+[UE PROC] RSRP[0] -48.67 dBm/RE, RSSI -89.21 dBm, RSRQ[0] 4.77 dB, N0 0 dBm/RE (NF 132.2 dB)
+[UE PROC] UE mode = PUSCH (3)
+[UE PROC] timing_advance = 0
+[UE PROC] Po_PUSCH = 0 dBm (PL 55 dB, Po_NOMINAL_PUSCH -108 dBm, PHR 0 dB)
+[UE PROC] Po_PUCCH = -53 dBm (Po_NOMINAL_PUCCH -108 dBm, g_pucch 0 dB)
+[UE PROC] RX spatial power eNB0: [51 0; 51 0] dB
+[UE PROC] RX total power eNB0: 55 dB, avg: 55 dB
+[UE PROC] RX total power lin: 379168, avg: 379126, RX total noise lin: 0, avg: 0
+[UE PROC] effective SINR 23.89 dB
+[UE PROC] Wideband CQI eNB 0: 127 dB, avg: 127 dB
+[UE PROC] Subband CQI eNB0 (Ant 0): [127 127 127 127 127 127 127] dB
+[UE PROC] Subband CQI eNB0 (Ant 1): [0 0 0 0 0 0 0] dB
+[UE PROC] Subband PMI eNB0 (Ant 0): [(0 1573266) (0 1606740) (0 1606740) (0 1606740) (0 1606740) (0 1606740) (0 401685)]
+[UE PROC] Subband PMI eNB0 (Ant 1): [(0 0) (0 0) (0 0) (0 0) (0 0) (0 0) (0 0)]
+[UE PROC] PMI Antenna selection eNB0 : [0 0 0 0 0 0 0]
+[UE PROC] Quantized PMI eNB 0 (max): 0
+[UE PROC] Quantized PMI eNB 0 (both): 2222222,0
+[UE PROC] RRC status = 4
+[UE PROC] Transmission Mode 2 (mode1_flag 0)
+[UE PROC] PBCH err conseq 0, PBCH error total 0, PBCH FER 0
+[UE PROC] eNB 0: CW 0 harq_pid 0, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 0 harq_pid 1, mcs 3:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 0 harq_pid 2, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 0 harq_pid 3, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 0 harq_pid 4, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 0 harq_pid 5, mcs 7:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 0 harq_pid 6, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 0 harq_pid 7, mcs 13:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] Saved PMI for DLSCH eNB 0 : 0 (0x1574e910)
+[UE PROC] eNB 0: dl_power_off = 1
+[UE PROC] eNB 0: CW 1 harq_pid 0, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 1 harq_pid 1, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 1 harq_pid 2, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 1 harq_pid 3, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 1 harq_pid 4, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 1 harq_pid 5, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 1 harq_pid 6, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] eNB 0: CW 1 harq_pid 7, mcs 0:0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0 
+[UE PROC] DLSCH Total 1, Error 0, FER 0
+[UE PROC] DLSCH (SI) Total 145, Error 0
+[UE PROC] DLSCH (RA) Total 1, Error 0
+[UE PROC] DLSCH Bitrate 0kbps
+[UE PROC] Total Received Bits 0kbits
+[UE PROC] IA receiver 0
+EOF
+ Bits 0kbits
+[UE PROC] IA receiver 0
+EOF

@@ -1,0 +1,618 @@
+[32mOPENAIR_DIR    = /home/kay/openairinterface5g[00m
+enabling abstraction mode
+[32mBringup UE interface...[00m
+bring up oai0 interface for enb
+bring up oai1 interface for ue 1
+action = 0, rb = 1,cx = 0
+ioctl :Statistics requested
+tx_packets = 0, rx_packets = 0
+tx_bytes = 0, rx_bytes = 0
+tx_errors = 0, rx_errors = 0
+tx_dropped = 0, rx_dropped = 0
+action = 0, rb = 1,cx = 0
+ioctl :Statistics requested
+tx_packets = 0, rx_packets = 0
+tx_bytes = 0, rx_bytes = 0
+tx_errors = 0, rx_errors = 0
+tx_dropped = 0, rx_dropped = 0
+eNB configuration file is /home/kay/openairinterface5g/targets/PROJECTS/GENERIC-LTE-EPC/CONF/enb.band7.generic.oaisim.local_no_mme.conf
+num component carrier 1 
+
+----------------------------------------------------------------------
+ ENB CONFIG FILE CONTENT LOADED (TBC):
+----------------------------------------------------------------------
+ENB CONFIG for instance 0:
+
+	eNB name:           	eNB_Eurecom_LTEBox:
+	eNB ID:             	3584:
+	Cell type:          	CELL_MACRO_ENB:
+	TAC:                	1:
+	MCC:                	208:
+	MNC:                	10:
+	eutra band for CC 0:         	7:
+	downlink freq for CC 0:      	2680000000:
+	uplink freq offset for CC 0: 	-120000000:
+
+	Cell ID for CC 0:	0:
+	N_RB_DL for CC 0:	25:
+	nb_antenna_ports for CC 0:	2:
+	nb_antennas_tx for CC 0:	2:
+	nb_antennas_rx for CC 0:	2:
+	rach_numberOfRA_Preambles for CC 0:	15:
+	rach_preamblesGroupAConfig for CC 0:	0:
+	rach_powerRampingStep for CC 0:	1:
+	rach_preambleInitialReceivedTargetPower for CC 0:	10:
+	rach_preambleTransMax for CC 0:	6:
+	rach_raResponseWindowSize for CC 0:	7:
+	rach_macContentionResolutionTimer for CC 0:	5:
+	rach_maxHARQ_Msg3Tx for CC 0:	4:
+	bcch_modificationPeriodCoeff for CC 0:	0:
+	pcch_defaultPagingCycle for CC 0:	2:
+	pcch_nB for CC 0:	2:
+	prach_root for CC 0:	0:
+	prach_config_index for CC 0:	0:
+	prach_high_speed for CC 0:	0:
+	prach_zero_correlation for CC 0:	1:
+	prach_freq_offset for CC 0:	2:
+	pdsch_referenceSignalPower for CC 0:	0:
+	pdsch_p_b for CC 0:	0:
+	pusch_n_SB for CC 0:	1:
+	pusch_hoppingMode for CC 0:	0:
+	pusch_hoppingOffset for CC 0:	0:
+	pusch_enable64QAM for CC 0:	0:
+	pusch_groupHoppingEnabled for CC 0:	1:
+	pusch_groupAssignment for CC 0:	0:
+	pusch_sequenceHoppingEnabled for CC 0:	0:
+	pusch_nDMRS1 for CC 0:	0:
+	pucch_delta_shift for CC 0:	0:
+	pucch_nRB_CQI for CC 0:	1:
+	pucch_nCS_AN for CC 0:	0:
+	srs_enable for CC 0:	0:
+	pusch_p0_Nominal for CC 0:	-108:
+	pucch_p0_Nominal for CC 0:	-108:
+	pusch_alpha for CC 0:	7:
+	pucch_deltaF_Format1 for CC 0:	2:
+	pucch_deltaF_Format1b for CC 0:	1:
+	pucch_deltaF_Format2 for CC 0:	1:
+	pucch_deltaF_Format2a for CC 0:	1:
+	pucch_deltaF_Format2b for CC 0:	1:
+	msg3_delta_Preamble for CC 0:	6:
+	ul_CyclicPrefixLength for CC 0:	0:
+	ue_TimersAndConstants_t300 for CC 0:	5:
+	ue_TimersAndConstants_t301 for CC 0:	5:
+	ue_TimersAndConstants_t310 for CC 0:	5:
+	ue_TimersAndConstants_n310 for CC 0:	7:
+	ue_TimersAndConstants_t311 for CC 0:	3:
+	ue_TimersAndConstants_n311 for CC 0:	0:
+	ue_TransmissionMode for CC 0:	1:
+
+	Global log level:  	trace
+	HW log level:      	info
+	PHY log level:     	trace
+	MAC log level:     	trace
+	RLC log level:     	trace
+	PDCP log level:    	trace
+	RRC log level:     	trace
+	UDP log level:     	debug
+	GTP log level:     	debug
+	OSA log level:     	debug
+
+--------------------------------------------------------
+log init done
+[ITTI][D] Memory pools statistics:
+Pool:   size, number, minimum,   free, address space and memory used in Kbytes
+   0:     52,  11000,   11000,  11000, [0x7f44f4cc6010-0x7f44f4d7c9f0]    730
+   1:    100,  21000,   21000,  21000, [0x7f44e57f3010-0x7f44e5a45bb0]   2378
+   2:   1000,  10000,   10000,  10000, [0x7f44e4e42010-0x7f44e57f2790]   9921
+   3:  20052,    400,     400,    400, [0x7f44e469a010-0x7f44e4e41c50]   7839
+   4:  30052,    100,     100,    100, [0x7f44e43bb010-0x7f44e4699160]   2936
+Pools memory 23806 Kbytes
+[EMU][I]OCG log level 7, oai log level6 
+ [34m[EMU][N]global log level is set to (info,6) with vebosity (medium, 0x15) and frequency 1
+[0m[MAC][I]num groups is set to 1
+[EMU][I][INIT] Starting NAS netlink interface
+[NETLINK]Opened socket with fd 35
+[EMU][I]Total number of UE 1 (first local 0 , num local 1, remote 0, relay 0) mobility STATIC 
+[EMU][I]Total number of eNB 1 (local 1, remote 0, relay 0) mobility STATIC 
+[PHY][I]init lte parms: Nid_cell 0, Frame type 0, N_RB_DL 25
+[PHY][I]Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 25, PHICH Resource 1, PHICH Duration 0
+pcfich_reg : 0,12,25,37
+Ngroup_PHICH 1 (phich_config_common.phich_resource 1,phich_config_common.phich_duration normal, NidCell 0,Ncp 0, frame_type 0), smallest pcfich REG 0, n0 46, n1 75 (first PHICH REG 0)
+phich_reg :0 => 1,17,33
+[PHY][I]init eNB: Nid_cell 0
+[PHY][I]init eNB: frame_type 0,tdd_config 3
+[PHY][I]init eNB: number of ue max 16 number of enb max 7 number of harq pid max 8
+[PHY][I]init eNB: N_RB_DL 25
+AFTER init: MAX_NUM_CCs 1, Nid_cell 0 frame_type 0,tdd_config 3
+[EMU][I]UE 0 mode is initialized to 1
+[MAC][I][MAIN] MAC_INIT_GLOBAL_PARAM IN...
+[MAC][I][MAIN] CALLING RLC_MODULE_INIT...
+[MAC][I][MAIN] RLC_MODULE_INIT OK, malloc16 for mac_rlc_xface...
+[MAC][I][MAIN] malloc16 OK, mac_rlc_xface @ 0x169213d0
+[MAC][I][MAIN] RLC interface setup and init
+[PDCP][I]PDCP layer has been initialized
+[MAC][I][MAIN] Init Global Param Done
+[MAC][I][MAIN] init eNB MAC functions  
+[MAC][I][MAIN] init UE MAC functions 
+[MAC][I][MAIN] PHY Frame configuration 
+[MAC][I][MAIN] Init function start:Nb_UE_INST=1
+[MAC][I][UE0] Applying default macMainConfig
+[MAC][I][MAIN] Init function start:Nb_eNB_INST=1
+[MAC][I][MAIN] calling RRC
+[RRC][I]Allocating 408 bytes for UE_EUTRA_Capability
+[PHY][I][RRC]UE Capability encoded, 15 bytes (120 bits)
+[RRC][I][UE] eMBMS active state is 0 
+[RRC][I][eNB] handover active state is 0 
+[RRC][I][eNB] eMBMS active state is 0 
+[MAC][I][MAIN][INIT] Init function finished
+AWGN: ricean_factor 0.000000
+AWGN: ricean_factor 0.000000
+[34m[EMU][N]>>>>>>>>>>>>>>>>>>>>>>>>>>> OAIEMU initialization done <<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[0m[EMU][I]eNB_l2_stats=0x7f44c4001180
+[EMU][I]TASK_L2L1 is READY
+[RRC][I][eNB 0] Received RRC_CONFIGURATION_REQ
+[RRC][I][FRAME 00000][eNB][MOD 00][RNTI 0] Init...
+[EMU][I]TASK_L2L1 received INITIALIZE_MESSAGE in state L2L1_WAITTING
+[MAC][I][eNB 0] Frame 0: PHY Sync failure 
+[RRC][I][FRAME 00000][eNB][MOD 00][RNTI 0] Checking release 
+[RRC][I][FRAME 00000][eNB][MOD 00][RNTI 0] Rel10 RRC detected, MBMS flag 0
+[RRC][I][FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][eNB 0] Received PHY_CONFIGURATION_REQ
+[RRC][I][eNB 0] Configuration SIB2/3, MBMS = 0
+[MAC][I][CONFIG][eNB 0/0] Configuring MAC/PHY
+[MAC][I][CONFIG]SIB2/3 Contents (partial)
+[MAC][I][CONFIG]pusch_config_common.n_SB = 1
+[MAC][I][CONFIG]pusch_config_common.hoppingMode = 0
+[MAC][I][CONFIG]pusch_config_common.pusch_HoppingOffset = 0
+[MAC][I][CONFIG]pusch_config_common.enable64QAM = 0
+[MAC][I][CONFIG]pusch_config_common.groupHoppingEnabled = 1
+[MAC][I][CONFIG]pusch_config_common.groupAssignmentPUSCH = 0
+[MAC][I][CONFIG]pusch_config_common.sequenceHoppingEnabled = 0
+[MAC][I][CONFIG]pusch_config_common.cyclicShift  = 0
+[RRC][I][FRAME 00000][eNB][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][UE 0] frame 1, slot 1: Adjusting frame counter (PBCH ant_tx=2, frame_tx=1, phase 1).
+[RRC][I][UE 0] : Dumping SIB 1
+[RRC][I]PLMN MCC 208, MNC 10, TAC 0x0001
+[RRC][I]cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I]Found SFR FR (name from internal table)
+[RRC][I]cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I]cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I]cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I]cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I]cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I]cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I]cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I]p_Max                                      : not defined
+[RRC][I]freqBandIndicator                          : 7
+[RRC][I]si_Periodicity[0]                          : rf8
+[RRC][I]siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I]siWindowLength                             : 20ms
+[RRC][I]systemInfoValueTag                         : 0
+[MAC][I][CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][UE 0] Frame 9 Found SIB2 from eNB 0
+[RRC][I]ac_BarringInfo : not defined
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.numberOfRA_Preambles  : raw:15 decoded:n64
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.preamblesGroupAConfig : not defined
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.powerRampingStep                   : raw:1 decoded:dB2
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.preambleInitialReceivedTargetPower : raw:10 decoded:dBm-100
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.preambleTransMax              : raw:6 decoded:n10
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.ra_ResponseWindowSize         : raw:7 decoded:sf10
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.mac_ContentionResolutionTimer : raw:5 decoded:sf48
+[RRC][I]radioResourceConfigCommon.rach_ConfigCommon.maxHARQ_Msg3Tx : 4
+[RRC][I]radioResourceConfigCommon.bcch_Config.modificationPeriodCoeff : raw:0 decoded:n2
+[RRC][I]radioResourceConfigCommon.pcch_Config.defaultPagingCycle : raw:2 decoded:rf64
+[RRC][I]radioResourceConfigCommon.pcch_Config.nB                 : raw:2 decoded:oneT
+[RRC][I]radioResourceConfigCommon.prach_Config.rootSequenceIndex                          : 0
+[RRC][I]radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_ConfigIndex         : 0
+[RRC][I]radioResourceConfigCommon.prach_Config.prach_ConfigInfo.highSpeedFlag             : 0
+[RRC][I]radioResourceConfigCommon.prach_Config.prach_ConfigInfo.zeroCorrelationZoneConfig : 1
+[RRC][I]radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_FreqOffset          : 2
+[RRC][I]radioResourceConfigCommon.pdsch_ConfigCommon.referenceSignalPower : 0
+[RRC][I]radioResourceConfigCommon.pdsch_ConfigCommon.p_b                  : 0
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.n_SB                : 1
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.hoppingMode         : 0
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.pusch_HoppingOffset : 0
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.enable64QAM         : 0
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupHoppingEnabled    : 1
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH   : 0
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled : 0
+[RRC][I]radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.cyclicShift            : 0
+[RRC][I]radioResourceConfigCommon.pucch_ConfigCommon.deltaPUCCH_Shift : 0
+[RRC][I]radioResourceConfigCommon.pucch_ConfigCommon.nRB_CQI          : 1
+[RRC][I]radioResourceConfigCommon.pucch_ConfigCommon.nCS_AN           : 0
+[RRC][I]radioResourceConfigCommon.pucch_ConfigCommon.n1PUCCH_AN       : 0
+[RRC][I]radioResourceConfigCommon.soundingRS_UL_ConfigCommon.present : raw:1 decoded:release
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUSCH   : -108
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.alpha             : 7
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUCCH   : -108
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1  : 2
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1b : 1
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2  : 1
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2a : 1
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2b : 1
+[RRC][I]radioResourceConfigCommon.uplinkPowerControlCommon.deltaPreambleMsg3 : 6
+[RRC][I]radioResourceConfigCommon.ul_CyclicPrefixLength : 0
+[RRC][I]ue_TimersAndConstants.t300 : 5
+[RRC][I]ue_TimersAndConstants.t301 : 5
+[RRC][I]ue_TimersAndConstants.t310 : 5
+[RRC][I]ue_TimersAndConstants.n310 : 7
+[RRC][I]ue_TimersAndConstants.t311 : 3
+[RRC][I]ue_TimersAndConstants.n311 : 0
+[RRC][I]freqInfo.ul_CarrierFreq             : not defined
+[RRC][I]freqInfo.ul_Bandwidth               : not defined
+[RRC][I]freqInfo.additionalSpectrumEmission : 1
+[RRC][I]mbsfn_SubframeConfigList : not defined
+[RRC][I]timeAlignmentTimerCommon : 7
+[RRC][I]lateNonCriticalExtension : not defined
+[RRC][I]ssac_BarringForMMTEL_Voice_r9 : not defined
+[RRC][I]ssac_BarringForMMTEL_Video_r9 : not defined
+[RRC][I]ac_BarringForCSFB_r10 : not defined
+[RRC][I][FRAME 00009][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB2 params  eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][UE0] Frame 9: Applying radioResourceConfigCommon from eNB0
+[RRC][I][UE 0] : Frame 9, Logical Channel UL-CCCH (SRB0), Generating RRCConnectionRequest (bytes 6, eNB 0)
+[RRC][I][UE 0] Received SIB1/SIB2/SIB3 Switching to RRC_SI_RECEIVED
+[RRC][I][UE 0] Frame 9 Found SIB3 from eNB 0
+[RRC][I]Dumping SIB3 (see TS36.331 V8.21.0)
+[RRC][I]cellReselectionInfoCommon.q_Hyst : raw:4  decoded:4 dB
+[RRC][I]cellReselectionInfoCommon.speedStateReselectionPars : not defined
+[RRC][I]cellReselectionServingFreqInfo.s_NonIntraSearch : not defined
+[RRC][I]cellReselectionServingFreqInfo.threshServingLow : 31
+[RRC][I]cellReselectionServingFreqInfo.cellReselectionPriority : 7
+[RRC][I]intraFreqCellReselectionInfo.q_RxLevMin : -70
+[RRC][I]intraFreqCellReselectionInfo.p_Max : not defined
+[RRC][I]intraFreqCellReselectionInfo.s_IntraSearch : 31
+[RRC][I]intraFreqCellReselectionInfo.allowedMeasBandwidth : 0
+[RRC][I]intraFreqCellReselectionInfo.presenceAntennaPort1 : 0
+[RRC][I]intraFreqCellReselectionInfo.neighCellConfig : 0
+[RRC][I]intraFreqCellReselectionInfo.t_ReselectionEUTRA : 1
+[RRC][I]intraFreqCellReselectionInfo.t_ReselectionEUTRA_SF : not defined
+[RRC][I]SIStatus 7, SIcnt 1/1
+[MAC][I]Received RRC_MAC_CCCH_DATA_REQ from TASK_RRC_UE: instance 1, frameP 10, eNB_index 0
+[93m[PHY][W]rx_pucch_emul: Didn't find UE with rnti 26c5
+[0m[MAC][I][eNB 0][RAPROC] Frame 10 Received RAR (59|00.00.03.4c.26.c5) for preamble 25/25
+[PHY][I][UE 0] Frame 10, received (rar) timing_advance 0, HW timing advance 0
+[PHY][I][UE  0][RAPROC] Frame 11, Subframe 1 next slot 2 Generating (RRCConnectionRequest) Msg3 (nb_rb 1, first_rb 1, round 0, rvidx 0) Msg3: 20.6.1f|58.c.49.a2.a6.6
+[MAC][I]Frame 11: Contention resolution timer 0/48
+[MAC][I]Frame 11: Contention resolution timer 1/48
+[34m[PHY][N][eNB][UCI] received unknown uci (rb 25)
+[0m[PHY][I][eNB 0][RAPROC] Frame 11 Terminating ra_proc for harq 7, UE 0
+[MAC][I][eNB 0][RAPROC] CC_id 0 Frame 11, Received CCCH:  58.c.49.a2.a6.6, Terminating RA procedure for UE rnti 26c5
+[MAC][I][eNB 0][RAPROC] CC_id 0 Frame 11 CCCH: Received Msg3: length 6, offset 3
+[MAC][I][eNB 0][RAPROC] CC_id 0 Frame 11 Added user with rnti 26c5 => UE 0
+[RRC][I][FRAME 00011][eNB][MOD 00][RNTI 26c5] Received RRC_MAC_CCCH_DATA_IND
+[RRC][I][FRAME 00011][eNB][MOD 00][RNTI 26c5] Accept new connection from UE random UE identity (0x602a9ac480000000) MME code 0 TMSI 0 cause 3
+[MAC][I][CONFIG][eNB 0/0] Configuring MAC/PHY for UE 0 (26c5)
+[PHY][I]Transmission Mode (phy_config_dedicated_eNB) 2
+[RRC][I][FRAME 00011][eNB][MOD 00][RNTI 26c5] [RAPROC] Logical Channel DL-CCCH, Generating RRCConnectionSetup (bytes 25)
+[RRC][I][FRAME 00011][eNB][MOD 00][RNTI 26c5]CALLING RLC CONFIG SRB1 (rbid 1)
+[34m[PDCP][N][FRAME 00011][eNB][MOD 00][RNTI 26c5][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][FRAME 00011][eNB][MOD 00][RNTI 26c5] [SRB 1] rrc_rlc_add_rlc  SRB
+[RLC][I][FRAME 00011][eNB][MOD 00][RNTI 26c5][SRB AM 01][CONFIGURE] max_retx_threshold 8 poll_pdu 4 poll_byte 10000 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[MAC][I]Frame 11: Contention resolution timer 2/48
+[MAC][I][eNB 0] frame 11 subfarme 4, UE 0: not configured, skipping UE scheduling 
+[PHY][I][eNB 0] Frame 11: Sent physicalConfigDedicated=0x7f44bc0043f0 for UE 0
+[PHY][I]Transmission Mode (phy_config_dedicated_eNB_step2) 2
+[MAC][I]Frame 11: Contention resolution timer 3/48
+[MAC][I][eNB 0][RAPROC] CC_id 0 Frame 11, subframeP 5: Generating Msg4 with RRC Piggyback (RA proc 0, RNTI 26c5)
+[MAC][I][eNB 0][RAPROC] CC_id 0 Frame 11 subframeP 5 Msg4 : TBS 41, sdu_len 25, msg4_header 8, msg4_padding 0, msg4_post_padding 7
+[MAC][I][eNB 0] frame 11 subfarme 5, UE 0: not configured, skipping UE scheduling 
+[MAC][I]Frame 11: Contention resolution timer 4/48
+[MAC][I][eNB 0] frame 11 subfarme 6, UE 0: not configured, skipping UE scheduling 
+[MAC][I]Frame 11: Contention resolution timer 5/48
+[MAC][I][eNB 0] frame 11 subfarme 7, UE 0: not configured, skipping UE scheduling 
+[MAC][I][UE 0][RAPROC] Frame 11 : received contention resolution msg: 58.c.49.a2.a6.6, Terminating RA procedure
+[MAC][I][UE -395001773][RAPROC] Frame 378377648 : Clearing RA_active flag
+[MAC][I][UE -395001773][RAPROC] Frame 378377648 : Clearing contention resolution timer
+[PHY][I][UE 0][RAPROC] Frame 11 Random-access procedure succeeded
+[RRC][I][UE0][RAPROC] Frame 11 : Logical Channel DL-CCCH (SRB0), Received RRCConnectionSetup RNTI 26c5
+[34m[PDCP][N][FRAME 00011][ UE][MOD 00][RNTI 26c5][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][FRAME 00011][ UE][MOD 00][RNTI 26c5] [SRB 1] rrc_rlc_add_rlc  SRB
+[MAC][I][eNB 0] frame 11 subfarme 8, UE 0: not configured, skipping UE scheduling 
+[RLC][I][FRAME 00011][ UE][MOD 00][RNTI 26c5][SRB AM 01][CONFIGURE] max_retx_threshold 8 poll_pdu 4 poll_byte 10000 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[RRC][I][UE 0], CONFIG_SRB1 1 corresponding to eNB_index 0
+[MAC][I][CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[RRC][I][UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][UE 0][RAPROC] Frame 11 : Logical Channel UL-DCCH (SRB1), Generating RRCConnectionSetupComplete (bytes59, eNB 0)
+[PDCP][I][FRAME 00011][ UE][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 1, rb_id 1, muiP 0, confirmP 0, mode 1
+[RLC][I][FRAME 00011][ UE][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 64 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 0
+[MAC][I][eNB 0] frame 11 subfarme 9, UE 0: not configured, skipping UE scheduling 
+[PHY][I][UE  0][PDSCH 26c5] frame 11, subframe 9: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[MAC][I][eNB 0][RAPROC] CC_id 0 Frame 12, subframeP 0: Checking if Msg4 was acknowledged: 
+[MAC][I][eNB 0][RAPROC] CC_id 0 Frame 12, subframeP 0 : Msg4 acknowledged
+[PHY][I][UE  0][SR 26c5] frame 12, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[MAC][I][eNB 0][SR 26c5] Frame 12 subframeP 0 Signaling SR for UE 0 on CC_id 0
+[MAC][I][eNB 0][PUSCH 7/26c5] CC_id 0 Frame 12 subframeP 3 Scheduled UE 0 (mcs 10, first rb 7, nb_rb 6, rb_table_index 5, TBS 129, harq_pid 7)
+[34m[RRC][N][eNB 0] Frame 12: received a DCCH 1 message on SRB 1 with Size 59 from UE 26c5
+[0m[RRC][I][FRAME 00012][eNB][MOD 00][RNTI 26c5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[RRC][I][FRAME 00012][eNB][MOD 00][RNTI 26c5] [RAPROC] Logical Channel UL-DCCH, processing RRCConnectionSetupComplete from UE (SRB1 Active)
+[RRC][I][FRAME 00012][eNB][MOD 00][RNTI 26c5] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[RRC][I][FRAME 00012][eNB][MOD 00][RNTI 26c5] UE State = RRC_CONNECTED 
+[PDCP][I][FRAME 00012][eNB][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[RLC][I][FRAME 00012][eNB][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 0
+[PHY][I][UE  0][PDSCH 26c5] frame 13, subframe 4: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[34m[RRC][N][UE 0] Frame 13: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][UE 0] Received securityModeCommand (eNB 0)
+[RRC][I][UE 0] Frame 13: Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
+[RRC][I][UE 0] Security algorithm is set to eea0
+[RRC][I][UE 0] Integrity protection algorithm is set to none
+[RRC][I][UE 0] Frame 13: Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (eNB 0)
+[PDCP][I][FRAME 00013][ UE][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 1, rb_id 1, muiP 1, confirmP 0, mode 1
+[RLC][I][FRAME 00013][ UE][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 1 current_sdu_index=1 next_sdu_index=2 conf 0 mui 1
+[PHY][I][UE  0][PDSCH 26c5] frame 13, subframe 5: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[PHY][I][UE  0][PDSCH 26c5] frame 13, subframe 6: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 14, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 15, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[34m[RRC][N][eNB 0] Frame 15: received a DCCH 1 message on SRB 1 with Size 2 from UE 26c5
+[0m[RRC][I][FRAME 00015][eNB][MOD 00][RNTI 26c5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[RRC][I][FRAME 00015][eNB][MOD 00][RNTI 26c5] received securityModeComplete on UL-DCCH 1 from UE
+<UL-DCCH-Message>
+    <message>
+        <c1>
+            <securityModeComplete>
+                <rrc-TransactionIdentifier>2</rrc-TransactionIdentifier>
+                <criticalExtensions>
+                    <securityModeComplete-r8>
+                    </securityModeComplete-r8>
+                </criticalExtensions>
+            </securityModeComplete>
+        </c1>
+    </message>
+</UL-DCCH-Message>
+[RRC][I][FRAME 00015][eNB][MOD 00][RNTI 26c5] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[PDCP][I][FRAME 00015][eNB][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 1, confirmP 0, mode 1
+[RLC][I][FRAME 00015][eNB][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 1 current_sdu_index=1 next_sdu_index=2 conf 0 mui 1
+[34m[RRC][N][UE 0] Frame 16: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][UE 0] Received Capability Enquiry (eNB 0)
+[RRC][I][UE 0] Frame 16: Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry (eNB 0)
+[PDCP][I][FRAME 00016][ UE][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 1, rb_id 1, muiP 2, confirmP 0, mode 1
+[RLC][I][FRAME 00016][ UE][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 24 Bytes,  NB SDU 1 current_sdu_index=2 next_sdu_index=3 conf 0 mui 2
+[PHY][I][UE  0][PDSCH 26c5] frame 16, subframe 4: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[PHY][I][UE  0][PDSCH 26c5] frame 16, subframe 5: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 17, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 18, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[34m[RRC][N][eNB 0] Frame 18: received a DCCH 1 message on SRB 1 with Size 19 from UE 26c5
+[0m[RRC][I][FRAME 00018][eNB][MOD 00][RNTI 26c5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[RRC][I][FRAME 00018][eNB][MOD 00][RNTI 26c5] received ueCapabilityInformation on UL-DCCH 1 from UE
+<UL-DCCH-Message>
+    <message>
+        <c1>
+            <ueCapabilityInformation>
+                <rrc-TransactionIdentifier>0</rrc-TransactionIdentifier>
+                <criticalExtensions>
+                    <c1>
+                        <ueCapabilityInformation-r8>
+                            <ue-CapabilityRAT-ContainerList>
+                                <UE-CapabilityRAT-Container>
+                                    <rat-Type><eutra/></rat-Type>
+                                    <ueCapabilityRAT-Container>01 80 00 30 89 86 4A 0C 1B 83 B0 7A 0F 80 00</ueCapabilityRAT-Container>
+                                </UE-CapabilityRAT-Container>
+                            </ue-CapabilityRAT-ContainerList>
+                        </ueCapabilityInformation-r8>
+                    </c1>
+                </criticalExtensions>
+            </ueCapabilityInformation>
+        </c1>
+    </message>
+</UL-DCCH-Message>
+<UE-EUTRA-Capability>
+    <accessStratumRelease><rel8/></accessStratumRelease>
+    <ue-Category>4</ue-Category>
+    <pdcp-Parameters>
+        <supportedROHC-Profiles>
+            <profile0x0001><false/></profile0x0001>
+            <profile0x0002><false/></profile0x0002>
+            <profile0x0003><false/></profile0x0003>
+            <profile0x0004><false/></profile0x0004>
+            <profile0x0006><false/></profile0x0006>
+            <profile0x0101><false/></profile0x0101>
+            <profile0x0102><false/></profile0x0102>
+            <profile0x0103><false/></profile0x0103>
+            <profile0x0104><false/></profile0x0104>
+        </supportedROHC-Profiles>
+        <maxNumberROHC-ContextSessions><cs16/></maxNumberROHC-ContextSessions>
+    </pdcp-Parameters>
+    <phyLayerParameters>
+        <ue-TxAntennaSelectionSupported><false/></ue-TxAntennaSelectionSupported>
+        <ue-SpecificRefSigsSupported><false/></ue-SpecificRefSigsSupported>
+    </phyLayerParameters>
+    <rf-Parameters>
+        <supportedBandListEUTRA>
+            <SupportedBandEUTRA>
+                <bandEUTRA>3</bandEUTRA>
+                <halfDuplex><false/></halfDuplex>
+            </SupportedBandEUTRA>
+            <SupportedBandEUTRA>
+                <bandEUTRA>20</bandEUTRA>
+                <halfDuplex><false/></halfDuplex>
+            </SupportedBandEUTRA>
+            <SupportedBandEUTRA>
+                <bandEUTRA>7</bandEUTRA>
+                <halfDuplex><false/></halfDuplex>
+            </SupportedBandEUTRA>
+            <SupportedBandEUTRA>
+                <bandEUTRA>38</bandEUTRA>
+                <halfDuplex><false/></halfDuplex>
+            </SupportedBandEUTRA>
+        </supportedBandListEUTRA>
+    </rf-Parameters>
+    <measParameters>
+        <bandListEUTRA>
+            <BandInfoEUTRA>
+                <interFreqBandList>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><false/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                </interFreqBandList>
+            </BandInfoEUTRA>
+            <BandInfoEUTRA>
+                <interFreqBandList>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><false/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                </interFreqBandList>
+            </BandInfoEUTRA>
+            <BandInfoEUTRA>
+                <interFreqBandList>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><false/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                </interFreqBandList>
+            </BandInfoEUTRA>
+            <BandInfoEUTRA>
+                <interFreqBandList>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><true/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                    <InterFreqBandInfo>
+                        <interFreqNeedForGaps><false/></interFreqNeedForGaps>
+                    </InterFreqBandInfo>
+                </interFreqBandList>
+            </BandInfoEUTRA>
+        </bandListEUTRA>
+    </measParameters>
+    <interRAT-Parameters>
+    </interRAT-Parameters>
+</UE-EUTRA-Capability>
+[RRC][I]RRCConnectionReconfiguration Encoded 315 bits (40 bytes)
+[RRC][I][eNB 0] Frame 18, Logical Channel DL-DCCH, Generate RRCConnectionReconfiguration (bytes 40, UE id 26c5)
+[PDCP][I][FRAME 00018][eNB][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 2, confirmP 0, mode 1
+[RLC][I][FRAME 00018][eNB][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 45 Bytes,  NB SDU 1 current_sdu_index=2 next_sdu_index=3 conf 0 mui 2
+[34m[RRC][N][UE 0] Frame 19: received a DCCH 1 message on SRB 1 with Size 40 from eNB 0
+[0m[RRC][I][UE 0] Frame 19: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I]Radio Resource Configuration is present
+[34m[PDCP][N][FRAME 00019][ UE][MOD 00][RNTI 26c5][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][FRAME 00019][ UE][MOD 00][RNTI 26c5] [SRB 2] rrc_rlc_add_rlc  SRB
+[RLC][I][FRAME 00019][ UE][MOD 00][RNTI 26c5][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 1000 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[RRC][I][UE 0], CONFIG_SRB2 2 corresponding to eNB_index 0
+[RRC][I]Applying Explicit SRB2 logicalChannelConfig
+[MAC][I][CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[34m[PDCP][N][FRAME 00019][ UE][MOD 00][RNTI 26c5][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[RLC][I]Adding DRB 1, lc_id 3
+[RLC][I][FRAME 00019][ UE][MOD 00][RNTI 26c5] [DRB 1] rrc_rlc_add_rlc  DRB
+[RRC][I][UE 0] Frame 19: processing RRCConnectionReconfiguration: reconfiguring DRB 1/LCID 3
+[MAC][I][CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[RRC][I][UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][FRAME 00019][ UE][MOD 00][RNTI 26c5] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[PHY][I][UE  0][PDSCH 26c5] frame 19, subframe 4: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[RRC][I][UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][FRAME 00019][ UE][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 1, rb_id 1, muiP 3, confirmP 0, mode 1
+[RLC][I][FRAME 00019][ UE][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 1 current_sdu_index=3 next_sdu_index=4 conf 0 mui 3
+[PHY][I][UE  0][PDSCH 26c5] frame 19, subframe 5: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 20, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 21, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[34m[RRC][N][eNB 0] Frame 21: received a DCCH 1 message on SRB 1 with Size 2 from UE 26c5
+[0m[RRC][I][FRAME 00021][eNB][MOD 00][RNTI 26c5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[RRC][I][FRAME 00021][eNB][MOD 00][RNTI 26c5] UE State = RRC_RECONFIGURED (default DRB, xid 1)
+[34m[PDCP][N][FRAME 00021][eNB][MOD 00][RNTI 26c5][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[34m[PDCP][N][FRAME 00021][eNB][MOD 00][RNTI 26c5][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[RLC][I][FRAME 00021][eNB][MOD 00][RNTI 26c5] [SRB 2] rrc_rlc_add_rlc  SRB
+[RLC][I][FRAME 00021][eNB][MOD 00][RNTI 26c5][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 1000 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[RLC][I]Adding DRB 1, lc_id 3
+[RLC][I][FRAME 00021][eNB][MOD 00][RNTI 26c5] [DRB 1] rrc_rlc_add_rlc  DRB
+[RRC][I][eNB 0] Frame  21 CC 0 : SRB2 is now active
+[RRC][I][eNB 0] Frame  21 : Logical Channel UL-DCCH, Received RRCConnectionReconfigurationComplete from UE rnti 26c5, reconfiguring DRB 1/LCID 3
+[RRC][I][eNB 0] Frame  21 : Logical Channel UL-DCCH, Received RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[MAC][I][CONFIG][eNB 0/0] Configuring MAC/PHY for UE 0 (26c5)
+[PHY][I]Transmission Mode (phy_config_dedicated_eNB) 2
+[RRC][I]setting up the dedicated DRBs 2 (index 1) status 0 
+[RRC][I]setting up the dedicated DRBs 3 (index 2) status 0 
+[RRC][I]EPS ID 2, DRB ID 2 (index 1), QCI 1, priority 5, LCID 4 LCGID 1 
+[93m[RRC][W]Not received activate dedicated EPS bearer context request
+[0m[RRC][I]EPS ID 3, DRB ID 3 (index 2), QCI 2, priority 7, LCID 5 LCGID 1 
+[93m[RRC][W]Not received activate dedicated EPS bearer context request
+[0m[93m[RRC][W]dedlicated NAS list is empty, free the list and reset the address
+[0m[RRC][I]RRCConnectionReconfiguration Encoded 134 bits (17 bytes)
+[RRC][I][eNB 0] Frame 21, Logical Channel DL-DCCH, Generate RRCConnectionReconfiguration (bytes 17, UE RNTI 26c5)
+[PHY][I][eNB 0] Frame 22: Sent physicalConfigDedicated=0x7f44bc0043f0 for UE 0
+[PHY][I]Transmission Mode (phy_config_dedicated_eNB_step2) 2
+[PDCP][I][FRAME 00021][eNB][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 3, confirmP 0, mode 1
+[RLC][I][FRAME 00021][eNB][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 22 Bytes,  NB SDU 1 current_sdu_index=3 next_sdu_index=4 conf 0 mui 3
+[PHY][I][UE  0][PDSCH 26c5] frame 22, subframe 4: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[34m[RRC][N][UE 0] Frame 22: received a DCCH 1 message on SRB 1 with Size 17 from eNB 0
+[0m[RRC][I][UE 0] Frame 22: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I]Radio Resource Configuration is present
+[34m[PDCP][N][FRAME 00022][ UE][MOD 00][RNTI 26c5][DRB 02]  Action ADD  LCID 4 (DRB id 2) configured with SN size 12 bits and RLC UM
+[0m[34m[PDCP][N][FRAME 00022][ UE][MOD 00][RNTI 26c5][DRB 03]  Action ADD  LCID 5 (DRB id 3) configured with SN size 12 bits and RLC UM
+[0m[RLC][I]Adding DRB 2, lc_id 4
+[RLC][I][FRAME 00022][ UE][MOD 00][RNTI 26c5] [DRB 2] rrc_rlc_add_rlc  DRB
+[RLC][I]Adding DRB 3, lc_id 5
+[RLC][I][FRAME 00022][ UE][MOD 00][RNTI 26c5] [DRB 3] rrc_rlc_add_rlc  DRB
+[RRC][I][UE 0] Frame 22: processing RRCConnectionReconfiguration: reconfiguring DRB 2/LCID 4
+[MAC][I][CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[RRC][I][UE 0] Frame 22: processing RRCConnectionReconfiguration: reconfiguring DRB 3/LCID 5
+[MAC][I][CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[RRC][I][UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][FRAME 00022][ UE][MOD 00][RNTI 26c5] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[RRC][I][UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][FRAME 00022][ UE][MOD 00][RNTI 26c5]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 1, rb_id 1, muiP 4, confirmP 0, mode 1
+[RLC][I][FRAME 00022][ UE][MOD 00][RNTI 26c5][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 1 current_sdu_index=4 next_sdu_index=5 conf 0 mui 4
+[PHY][I][UE  0][PDSCH 26c5] frame 22, subframe 6: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 23, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[PHY][I][UE  0][SR 26c5] frame 24, subframe 0: Po_PUCCH -51 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB g_pucch 0 dB
+[34m[RRC][N][eNB 0] Frame 24: received a DCCH 1 message on SRB 1 with Size 2 from UE 26c5
+[0m[RRC][I][FRAME 00024][eNB][MOD 00][RNTI 26c5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[RRC][I][FRAME 00024][eNB][MOD 00][RNTI 26c5] UE State = RRC_RECONFIGURED (dedicated DRB, xid 2)
+[34m[PDCP][N][FRAME 00024][eNB][MOD 00][RNTI 26c5][DRB 02]  Action ADD  LCID 4 (DRB id 2) configured with SN size 12 bits and RLC UM
+[0m[34m[PDCP][N][FRAME 00024][eNB][MOD 00][RNTI 26c5][DRB 03]  Action ADD  LCID 5 (DRB id 3) configured with SN size 12 bits and RLC UM
+[0m[RLC][I]Adding DRB 2, lc_id 4
+[RLC][I][FRAME 00024][eNB][MOD 00][RNTI 26c5] [DRB 2] rrc_rlc_add_rlc  DRB
+[RLC][I]Adding DRB 3, lc_id 5
+[RLC][I][FRAME 00024][eNB][MOD 00][RNTI 26c5] [DRB 3] rrc_rlc_add_rlc  DRB
+[RRC][I][eNB 0] Frame  24 : Logical Channel UL-DCCH, Received RRCConnectionReconfigurationComplete from UE rnti 26c5, reconfiguring DRB 2/LCID 4
+[RRC][I][eNB 0] Frame  24 : Logical Channel UL-DCCH, Received RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 2/LCID 4
+[MAC][I][CONFIG][eNB 0/0] Configuring MAC/PHY for UE 0 (26c5)
+[PHY][I]Transmission Mode (phy_config_dedicated_eNB) 2
+[RRC][I][eNB 0] Frame  24 : Logical Channel UL-DCCH, Received RRCConnectionReconfigurationComplete from UE rnti 26c5, reconfiguring DRB 3/LCID 5
+[RRC][I][eNB 0] Frame  24 : Logical Channel UL-DCCH, Received RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 3/LCID 5
+[MAC][I][CONFIG][eNB 0/0] Configuring MAC/PHY for UE 0 (26c5)
+[PHY][I]Transmission Mode (phy_config_dedicated_eNB) 2
+[PHY][I][eNB 0] Frame 25: Sent physicalConfigDedicated=0x7f44bc0043f0 for UE 0
+[PHY][I]Transmission Mode (phy_config_dedicated_eNB_step2) 2
+[PHY][I][UE  0][PDSCH 26c5] frame 25, subframe 4: Po_PUCCH -50 dBm : Po_NOMINAL_PUCCH -108 dBm, PL 55 dB, g_pucch 0 dB

@@ -1,0 +1,23 @@
+Scanning dependencies of target oai_nw_drv
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/netlink.c
+make[4]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/common.c: In function ‘oai_nw_drv_common_class_wireless2ip’:
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/common.c:95:18: warning: unused variable ‘addr’ [-Wunused-variable]
+   unsigned char *addr,*daddr,*saddr,*ifaddr;
+                  ^
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/tool.c: In function ‘print_TOOL_pk_all’:
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/tool.c:647:35: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   printk("Skb:\t %u, len = %u\n", (unsigned int)skb, skb->len);
+                                   ^
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/tool.c:653:24: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     print_TOOL_pk_ipv6((struct ipv6hdr *)skb->network_header);
+                        ^
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/tool.c:657:24: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     print_TOOL_pk_ipv4((struct iphdr *)skb->network_header);
+                        ^
+/home/kay/openairinterface5g/openair2/NETWORK_DRIVER/LITE/netlink.c:64:12: warning: ‘nas_netlink_rx_thread’ declared ‘static’ but never defined [-Wunused-function]
+ static int nas_netlink_rx_thread(void *);
+            ^
+WARNING: modpost: missing MODULE_LICENSE() in /home/kay/openairinterface5g/cmake_targets/oaisim_noS1_build_oai/build/CMakeFiles/oai_nw_drv/oai_nw_drv.o
+see include/linux/module.h for more information
+Built target oai_nw_drv

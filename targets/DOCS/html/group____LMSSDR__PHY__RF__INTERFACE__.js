@@ -1,0 +1,26 @@
+var group____LMSSDR__PHY__RF__INTERFACE__ =
+[
+    [ "LMS7param", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga059d8c3944c522ac489bb02d5cd27400", null ],
+    [ "RXDCLENGTH", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga051eac06d0cf066028f84a0e656d4fe6", null ],
+    [ "NUMBUFF", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga8d10172da7082bee7ba0070133cc3932", null ],
+    [ "write_output", "group____LMSSDR__PHY__RF__INTERFACE__.html#gadbb779c99e43d736db010f89311d8298", null ],
+    [ "trx_lms_write", "group____LMSSDR__PHY__RF__INTERFACE__.html#gae672713754f0b442208ad754ec276c59", null ],
+    [ "trx_lms_read", "group____LMSSDR__PHY__RF__INTERFACE__.html#gac41bdfdb2865186d93c856e1dfa9bd92", null ],
+    [ "set_rx_gain_offset", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga9a7bbda2f0e59fd10f7615fc872a0788", null ],
+    [ "trx_lms_set_gains", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga75ec5ed33c63ef2a4e43cb0fa0204d1b", null ],
+    [ "trx_lms_start", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga33ebbdb496e211c0a3ee9cf95c42ac03", null ],
+    [ "trx_lms_stop", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga8d3c1b2c107c2ee600d337502f4fa31c", null ],
+    [ "trx_lms_set_freq", "group____LMSSDR__PHY__RF__INTERFACE__.html#gaba1533855a14086118d4252c6b807af0", null ],
+    [ "trx_lms_get_stats", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga7cf5f644d97e86c2b2658b5388608447", null ],
+    [ "trx_lms_reset_stats", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga7225976c0d98394aac96ed5fb22bf264", null ],
+    [ "trx_lms_end", "group____LMSSDR__PHY__RF__INTERFACE__.html#gad54650e824e068b7adb0820012e2ad3f", null ],
+    [ "device_init", "group____LMSSDR__PHY__RF__INTERFACE__.html#gab48066631bd47ace7fcf34055e66f7e5", null ],
+    [ "usbport", "group____LMSSDR__PHY__RF__INTERFACE__.html#gaa679aa97c908ecc9dd1aab27852a0f74", null ],
+    [ "comport", "group____LMSSDR__PHY__RF__INTERFACE__.html#gaaae2cf7cd13034a8169dd97d73fb5c40", null ],
+    [ "lms7", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga5e780b4b6386d78bae5a020100a34b9f", null ],
+    [ "Si", "group____LMSSDR__PHY__RF__INTERFACE__.html#gab335b6dd0f10f407f8d50ebfed030dbe", null ],
+    [ "lmsStream", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga460b771b9c5292432ca30995beb09dc1", null ],
+    [ "cos_fsover8", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga6b6c9867ab37377d0bcdc39a97af3724", null ],
+    [ "cos_3fsover8", "group____LMSSDR__PHY__RF__INTERFACE__.html#ga689fdedfcd696d73d85ebbf6204a03ea", null ],
+    [ "calib_table_sodera", "group____LMSSDR__PHY__RF__INTERFACE__.html#gab16f12f1f6b26342a9607d9b254f659f", null ]
+];

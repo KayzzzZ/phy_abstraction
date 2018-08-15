@@ -1,0 +1,1 @@
+cmd_/home/kay/openairinterface5g/cmake_targets/oaisim_noS1_build_oai/build/CMakeFiles/nasmesh/built-in.o :=  rm -f /home/kay/openairinterface5g/cmake_targets/oaisim_noS1_build_oai/build/CMakeFiles/nasmesh/built-in.o; ar rcsD /home/kay/openairinterface5g/cmake_targets/oaisim_noS1_build_oai/build/CMakeFiles/nasmesh/built-in.o
